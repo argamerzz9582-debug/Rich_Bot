@@ -1,0 +1,18 @@
+{
+  "name": "enterprise-bot-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Enterprise All-in-One Discord Bot and Web Dashboard",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:bot": "npm run dev --workspace=bot",
+    "dev:web": "npm run dev --workspace=web",
+    "build:bot": "npm run build --workspace=bot",
+    "build:web": "npm run build --workspace=web"
+  },
+  "author": "",
+  "license": "ISC"
+}
